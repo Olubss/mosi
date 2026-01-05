@@ -1,0 +1,793 @@
+{
+  "_CourseCard-!~{00v}~.js": {
+    "file": "assets/CourseCard-B9YznMA8.css",
+    "src": "_CourseCard-!~{00v}~.js"
+  },
+  "_CourseCard-DWV7j3YW.js": {
+    "file": "assets/CourseCard-DWV7j3YW.js",
+    "name": "CourseCard",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/CourseCard-B9YznMA8.css"
+    ]
+  },
+  "_CourseLessons-!~{00w}~.js": {
+    "file": "assets/CourseLessons-D1d-bf4e.css",
+    "src": "_CourseLessons-!~{00w}~.js"
+  },
+  "_CourseLessons-11sD4MKS.js": {
+    "file": "assets/CourseLessons-11sD4MKS.js",
+    "name": "CourseLessons",
+    "imports": [
+      "resources/js/app.js",
+      "_exam-DCktQ6n9.js",
+      "_quiz-Y1rZes3O.js",
+      "_index-C-hHfgK1.js"
+    ],
+    "css": [
+      "assets/CourseLessons-D1d-bf4e.css"
+    ]
+  },
+  "_exam-DCktQ6n9.js": {
+    "file": "assets/exam-DCktQ6n9.js",
+    "name": "exam",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_index-C-hHfgK1.js": {
+    "file": "assets/index-C-hHfgK1.js",
+    "name": "index",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_quiz-Y1rZes3O.js": {
+    "file": "assets/quiz-Y1rZes3O.js",
+    "name": "quiz",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-BeopsB42.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-mSm7cUeB.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "node_modules/remixicon/fonts/remixicon.eot": {
+    "file": "assets/remixicon-BVJ9S1ev.eot",
+    "src": "node_modules/remixicon/fonts/remixicon.eot"
+  },
+  "node_modules/remixicon/fonts/remixicon.svg": {
+    "file": "assets/remixicon-C2wQ2gtc.svg",
+    "src": "node_modules/remixicon/fonts/remixicon.svg"
+  },
+  "node_modules/remixicon/fonts/remixicon.ttf": {
+    "file": "assets/remixicon-CfJD46dY.ttf",
+    "src": "node_modules/remixicon/fonts/remixicon.ttf"
+  },
+  "node_modules/remixicon/fonts/remixicon.woff": {
+    "file": "assets/remixicon-BBpe-Xu7.woff",
+    "src": "node_modules/remixicon/fonts/remixicon.woff"
+  },
+  "node_modules/remixicon/fonts/remixicon.woff2": {
+    "file": "assets/remixicon-BVvFtaex.woff2",
+    "src": "node_modules/remixicon/fonts/remixicon.woff2"
+  },
+  "public/assets/images/dino-404.svg": {
+    "file": "assets/dino-404-BWHmHIeW.svg",
+    "src": "public/assets/images/dino-404.svg"
+  },
+  "public/assets/website/about2.jpg": {
+    "file": "assets/about2-BLzrV_Xr.jpg",
+    "src": "public/assets/website/about2.jpg"
+  },
+  "public/assets/website/authorization-page.png": {
+    "file": "assets/authorization-page-xT0G-9Tc.png",
+    "src": "public/assets/website/authorization-page.png"
+  },
+  "public/assets/website/icon/close.svg": {
+    "file": "assets/close-CqkhsWw7.svg",
+    "src": "public/assets/website/icon/close.svg"
+  },
+  "public/assets/website/icon/menubar.svg": {
+    "file": "assets/menubar-BoSfr9kK.svg",
+    "src": "public/assets/website/icon/menubar.svg"
+  },
+  "public/assets/website/pricing-bg.png": {
+    "file": "assets/pricing-bg-8cmt1QKh.png",
+    "src": "public/assets/website/pricing-bg.png"
+  },
+  "public/assets/website/support.png": {
+    "file": "assets/support--DLg0v8R.png",
+    "src": "public/assets/website/support.png"
+  },
+  "public/assets/website/teacher.jpg": {
+    "file": "assets/teacher-UjkPfNEU.jpg",
+    "src": "public/assets/website/teacher.jpg"
+  },
+  "public/whatsapp/support.svg": {
+    "file": "assets/support-BA3T77sx.svg",
+    "src": "public/whatsapp/support.svg"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-L4cdeQDO.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/pages/Home.vue",
+      "resources/js/pages/List.vue",
+      "resources/js/pages/Details.vue",
+      "resources/js/pages/Play.vue",
+      "resources/js/pages/Instructor.vue",
+      "resources/js/pages/Login.vue",
+      "resources/js/pages/Register.vue",
+      "resources/js/pages/ResetPassword.vue",
+      "resources/js/pages/VerifyOtp.vue",
+      "resources/js/pages/NewPassword.vue",
+      "resources/js/pages/Checkout.vue",
+      "resources/js/pages/PlanCheckout.vue",
+      "resources/js/pages/EnrollStatus.vue",
+      "resources/js/pages/PlanEnrollStatus.vue",
+      "resources/js/components/DashboardHome.vue",
+      "resources/js/components/DashboardProfile.vue",
+      "resources/js/components/DashboardCourses.vue",
+      "resources/js/components/DashboardCertificates.vue",
+      "resources/js/components/DashboardPayment.vue",
+      "resources/js/components/DashboardPlanPayment.vue",
+      "resources/js/pages/Page.vue",
+      "resources/js/pages/AboutUs.vue",
+      "resources/js/pages/Exam.vue",
+      "resources/js/pages/Quiz.vue",
+      "resources/js/pages/ContactUs.vue",
+      "resources/js/pages/FAQ.vue",
+      "resources/js/pages/PageNotFound.vue"
+    ],
+    "css": [
+      "assets/app-baWs6cmk.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/support-BA3T77sx.svg",
+      "assets/menubar-BoSfr9kK.svg",
+      "assets/close-CqkhsWw7.svg",
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/components/DashboardCertificates.vue": {
+    "file": "assets/DashboardCertificates-Cfl3iiHw.js",
+    "name": "DashboardCertificates",
+    "src": "resources/js/components/DashboardCertificates.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/DashboardCertificates-CRXcjso2.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/components/DashboardCourses.vue": {
+    "file": "assets/DashboardCourses-h3xvEJTo.js",
+    "name": "DashboardCourses",
+    "src": "resources/js/components/DashboardCourses.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/DashboardCourses-D91SL3IX.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/components/DashboardHome.vue": {
+    "file": "assets/DashboardHome-BJLxsW_y.js",
+    "name": "DashboardHome",
+    "src": "resources/js/components/DashboardHome.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/DashboardHome-D0nxkMxx.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/components/DashboardPayment.vue": {
+    "file": "assets/DashboardPayment-26IO09IB.js",
+    "name": "DashboardPayment",
+    "src": "resources/js/components/DashboardPayment.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/DashboardPayment-kE46erDo.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/components/DashboardPlanPayment.vue": {
+    "file": "assets/DashboardPlanPayment-C1vDMpVw.js",
+    "name": "DashboardPlanPayment",
+    "src": "resources/js/components/DashboardPlanPayment.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/DashboardPlanPayment-BYJ47Ud8.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/components/DashboardProfile.vue": {
+    "file": "assets/DashboardProfile-B0XqJWI3.js",
+    "name": "DashboardProfile",
+    "src": "resources/js/components/DashboardProfile.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/DashboardProfile-Ch_ipvcs.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/AboutUs.vue": {
+    "file": "assets/AboutUs-BzECLuey.js",
+    "name": "AboutUs",
+    "src": "resources/js/pages/AboutUs.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/AboutUs-_iTODArG.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/teacher-UjkPfNEU.jpg",
+      "assets/about2-BLzrV_Xr.jpg",
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/Checkout.vue": {
+    "file": "assets/Checkout-KpXRLOed.js",
+    "name": "Checkout",
+    "src": "resources/js/pages/Checkout.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/Checkout-CBIxQ78D.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/ContactUs.vue": {
+    "file": "assets/ContactUs-Ww5EiEjR.js",
+    "name": "ContactUs",
+    "src": "resources/js/pages/ContactUs.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/ContactUs-BUn5ac1L.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/support--DLg0v8R.png",
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/Details.vue": {
+    "file": "assets/Details-AU4f4oSm.js",
+    "name": "Details",
+    "src": "resources/js/pages/Details.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_CourseLessons-11sD4MKS.js",
+      "_exam-DCktQ6n9.js",
+      "_quiz-Y1rZes3O.js",
+      "_index-C-hHfgK1.js"
+    ],
+    "css": [
+      "assets/Details-DmK3VV6h.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/EnrollStatus.vue": {
+    "file": "assets/EnrollStatus-A2j7haSo.js",
+    "name": "EnrollStatus",
+    "src": "resources/js/pages/EnrollStatus.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/EnrollStatus-gsNaqiIt.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/Exam.vue": {
+    "file": "assets/Exam-BW3I06TO.js",
+    "name": "Exam",
+    "src": "resources/js/pages/Exam.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_exam-DCktQ6n9.js"
+    ],
+    "css": [
+      "assets/Exam-VXnWOEbE.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/FAQ.vue": {
+    "file": "assets/FAQ-BGyRctwn.js",
+    "name": "FAQ",
+    "src": "resources/js/pages/FAQ.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/FAQ-Zic6_qkx.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/Home.vue": {
+    "file": "assets/Home-BVGpJvwT.js",
+    "name": "Home",
+    "src": "resources/js/pages/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_index-C-hHfgK1.js",
+      "_CourseCard-DWV7j3YW.js"
+    ],
+    "css": [
+      "assets/Home-BU8cZfAI.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/pricing-bg-8cmt1QKh.png",
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/Instructor.vue": {
+    "file": "assets/Instructor-DbPkvahS.js",
+    "name": "Instructor",
+    "src": "resources/js/pages/Instructor.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_CourseCard-DWV7j3YW.js"
+    ],
+    "css": [
+      "assets/Instructor-DVSNOf5W.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/List.vue": {
+    "file": "assets/List-Cg-EcpQ2.js",
+    "name": "List",
+    "src": "resources/js/pages/List.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_index-C-hHfgK1.js",
+      "_CourseCard-DWV7j3YW.js"
+    ],
+    "css": [
+      "assets/List-DNAuwBJy.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/Login.vue": {
+    "file": "assets/Login-edE7L30L.js",
+    "name": "Login",
+    "src": "resources/js/pages/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_index-C-hHfgK1.js"
+    ],
+    "css": [
+      "assets/Login-By3kuJcn.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/authorization-page-xT0G-9Tc.png",
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/NewPassword.vue": {
+    "file": "assets/NewPassword-CK5KG-5n.js",
+    "name": "NewPassword",
+    "src": "resources/js/pages/NewPassword.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/NewPassword-aVHdxgly.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/Page.vue": {
+    "file": "assets/Page-B4qImMSW.js",
+    "name": "Page",
+    "src": "resources/js/pages/Page.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/Page-B0e1SQUo.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/PageNotFound.vue": {
+    "file": "assets/PageNotFound-DsxqB-Ph.js",
+    "name": "PageNotFound",
+    "src": "resources/js/pages/PageNotFound.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/PageNotFound-CbWbdUAw.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/dino-404-BWHmHIeW.svg",
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/PlanCheckout.vue": {
+    "file": "assets/PlanCheckout-DJXqGAOV.js",
+    "name": "PlanCheckout",
+    "src": "resources/js/pages/PlanCheckout.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/PlanCheckout-CyM7zwiX.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/PlanEnrollStatus.vue": {
+    "file": "assets/PlanEnrollStatus-Bq67mZFh.js",
+    "name": "PlanEnrollStatus",
+    "src": "resources/js/pages/PlanEnrollStatus.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/PlanEnrollStatus-Dgj7jptq.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/Play.vue": {
+    "file": "assets/Play-DdZcmlmf.js",
+    "name": "Play",
+    "src": "resources/js/pages/Play.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_CourseLessons-11sD4MKS.js",
+      "resources/js/app.js",
+      "_exam-DCktQ6n9.js",
+      "_quiz-Y1rZes3O.js",
+      "_index-C-hHfgK1.js"
+    ],
+    "css": [
+      "assets/Play-xmbWUQjV.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/Quiz.vue": {
+    "file": "assets/Quiz-28PICXmA.js",
+    "name": "Quiz",
+    "src": "resources/js/pages/Quiz.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_quiz-Y1rZes3O.js",
+      "_index-C-hHfgK1.js"
+    ],
+    "css": [
+      "assets/Quiz-BdTzNhmn.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/Register.vue": {
+    "file": "assets/Register-B4SVcZqi.js",
+    "name": "Register",
+    "src": "resources/js/pages/Register.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_index-C-hHfgK1.js"
+    ],
+    "css": [
+      "assets/Register-C8tAuDQr.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/authorization-page-xT0G-9Tc.png",
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/ResetPassword.vue": {
+    "file": "assets/ResetPassword-CTleJMMJ.js",
+    "name": "ResetPassword",
+    "src": "resources/js/pages/ResetPassword.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/ResetPassword-DnzkUph9.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/pages/VerifyOtp.vue": {
+    "file": "assets/VerifyOtp-uUB13DS6.js",
+    "name": "VerifyOtp",
+    "src": "resources/js/pages/VerifyOtp.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/VerifyOtp-Is8wP0_l.css",
+      "assets/app-k0ynyiKa.css"
+    ],
+    "assets": [
+      "assets/remixicon-BVJ9S1ev.eot",
+      "assets/remixicon-BVvFtaex.woff2",
+      "assets/remixicon-BBpe-Xu7.woff",
+      "assets/remixicon-CfJD46dY.ttf",
+      "assets/remixicon-C2wQ2gtc.svg",
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/style/app.scss": {
+    "file": "assets/app-k0ynyiKa.css",
+    "src": "resources/style/app.scss",
+    "isEntry": true
+  }
+}
