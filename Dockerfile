@@ -10,6 +10,11 @@ RUN apt-get update && apt-get install -y \
 # Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
+# Force the permission inside the build process
+RUN chmod 775 .env
+
+# Also highly recommended for Laravel
+RUN chmod -R 775 storage bootstrap/cache
 WORKDIR /var/www/html
 COPY . .
 
