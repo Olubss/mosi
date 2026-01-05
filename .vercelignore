@@ -1,6 +1,4 @@
 /node_modules
-/vendor
-/tests
-/storage
-/.git
-/public/storage
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
