@@ -1,26 +1,14 @@
-FROM php:8.2-fpm
+# 1. Set the working directory
+WORKDIR /var/www/html
 
-# Install system dependencies and PHP extensions (including GD for mPDF)
-RUN apt-get update && apt-get install -y \
-    libpng-dev libjpeg-dev libfreetype6-dev \
-    zip libzip-dev unzip git nodejs npm \
-    && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install gd pdo pdo_mysql zip
+# 2. NOW copy your project files from your Mac to the Docker image
+COPY . .
 
-# Install Composer
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
-
-# ... (after COPY . .)
-
-# ONLY chmod folders that actually exist in your repo
+# 3. NOW you can run chmod, because the files actually exist in /var/www/html
 RUN chmod -R 775 storage bootstrap/cache
 
-# Change ownership so the web server can actually write to them
+# 4. Change ownership
 RUN chown -R www-data:www-data storage bootstrap/cache
 
-# Run build steps
+# 5. Install dependencies
 RUN composer install --no-dev --optimize-autoloader
-RUN npm install && npm run build
-
-# Expose port and start
-CMD php artisan serve --host=0.0.0.0 --port=10000
