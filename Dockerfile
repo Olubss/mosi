@@ -5,9 +5,13 @@ FROM php:8.2-fpm
 RUN apt-get update && apt-get install -y \
     libpng-dev libjpeg-dev libfreetype6-dev \
     zip libzip-dev unzip git nodejs npm \
+    libgmp-dev \
+    && rm -rf /var/lib/apt/lists/*
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install gd pdo pdo_mysql zip
 
+# 2. Install PHP extensions (mysqli, gmp, bcmath)
+RUN docker-php-ext-install mysqli gmp bcmath gd pdo_mysql    
 # Set the working directory
 WORKDIR /var/www/html
 
