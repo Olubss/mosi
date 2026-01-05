@@ -16,7 +16,3 @@ export default defineConfig({
         },
     },
 });
-
-export default {
-  base: '/mosi/', // Must be wrapped in slashes
-}
