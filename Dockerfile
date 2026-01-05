@@ -1,32 +1,39 @@
-# THIS MUST BE THE FIRST LINE
 FROM php:8.2-fpm
 
-# Install system dependencies (including GD for mPDF)
+# 1. Install system dependencies
 RUN apt-get update && apt-get install -y \
-    libpng-dev libjpeg-dev libfreetype6-dev \
-    zip libzip-dev unzip git nodejs npm \
+    libpng-dev \
+    libjpeg-dev \
+    libfreetype6-dev \
     libgmp-dev \
+    libzip-dev \
+    zip \
+    unzip \
+    git \
+    nodejs \
+    npm \
     && rm -rf /var/lib/apt/lists/*
-    && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install gd pdo pdo_mysql zip
 
-# 2. Install PHP extensions (mysqli, gmp, bcmath)
-RUN docker-php-ext-install mysqli gmp bcmath gd pdo_mysql    
-# Set the working directory
+# 2. Configure and install PHP extensions
+RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
+    && docker-php-ext-install gd pdo pdo_mysql zip mysqli gmp bcmath
+
+# 3. Set working directory
 WORKDIR /var/www/html
 
-# Copy composer from the official image
+# 4. Copy Composer from the official image
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Copy your project files
+# 5. Copy your project files
 COPY . .
 
-# NOW run permissions and install
-RUN chmod -R 775 storage bootstrap/cache .env
-RUN chown -R www-data:www-data storage bootstrap/cache
+# 6. Set permissions for Laravel
+RUN chmod -R 775 storage bootstrap/cache .env \
+    && chown -R www-data:www-data storage bootstrap/cache
 
+# 7. Install dependencies and build assets
 RUN composer install --no-dev --optimize-autoloader
 RUN npm install && npm run build
 
-# Start the server
+# 8. Start the server
 CMD php artisan serve --host=0.0.0.0 --port=10000
